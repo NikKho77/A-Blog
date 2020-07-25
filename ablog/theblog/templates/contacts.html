@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{% block content %}
+
+
+{% for c in object_list %}
+    <!--<li>--> <p>email - {{ c.email }} </br>phone - {{ c.phone}}</br>
+    adress - {{ c.adress }}</p><!--</li>--><hr color="white"></br></br>
+
+{% endfor %}
+
+  <div class="map">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.2909478169927!2d-77.19100215997103!3d40.20259055721942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8e1d491e26535%3A0xe0975a12c9b62cc!2s24%20W%20Louther%20St%2C%20Carlisle%2C%20PA%2017013%2C%20USA!5e0!3m2!1sen!2sua!4v1595414260594!5m2!1sen!2sua" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+    </br>
+</br>
+{% endblock %}

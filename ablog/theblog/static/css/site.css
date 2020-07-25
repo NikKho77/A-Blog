@@ -1,0 +1,81 @@
+@font-face{
+    font-family:NewFont;
+    src:url('fonts/NewFont.ttf');
+}
+p{
+    font-family:NewFont;
+    color: #d0d0d0;
+    font-size: 20px;
+}
+h1{
+    font-family:NewFont;
+}
+h2{
+    font-family:NewFont;
+}
+h3{
+    font-family:NewFont;
+}
+h4{
+    font-family:NewFont;
+}
+a{
+    font-family:NewFont;
+}
+body{
+background-color: #A9A9A9;
+}
+.container{
+background-color:#1d1d1d;
+color:white;
+text-align:center;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+.postsqwe{
+text-align:center;
+margin-top: 25px;
+background-color:#1d1d1d;
+padding-left: 30px;
+padding-right: 30px;
+}
+.postsqwr{
+margin-top: 125px;
+}
+.jumbotron{
+background-color:black;
+margin-top: 30px;
+
+}
+.imga{
+width:50px;
+}
+.imgshop{
+float: left;
+width:20%;
+position:top;
+}
+.imgrandy{
+float: left;
+width: 20%;
+}
+
+hr{
+width: 50%;
+}
+.navbar-brand{
+margin-left:40px;
+
+}
+.navbar-nav{
+
+font-size: 30px;
+margin-left: 250px;
+
+}
+
+.map{
+margin:0 auto;
+}
+

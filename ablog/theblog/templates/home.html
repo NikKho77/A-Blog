@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <img src="static/image/shop.png" class="imgshop">
+    </br></br>
+  <p class="lead">We would like to welcome the 2021 class at the Carlisle Army War College. Stop by and check us out you will be glad you did. Razor neck shave with every hair cut. And thank you to the class of 2020 we wish you all a safe and long career.</p>
+</br>
+</br></br>
+</br>
+</div>
+<div class="jumbotron">
+
+        <h3>Prices</h3>
+   <!-- <p>Haircut - $14</br>
+        Beard Trim - $6</br>
+        Scalp Shave - $17</p>-->
+    <button type="button" class="btn btn-dark"><a href="prices.html/">SHOW PRICES</a></button>
+    <hr color="white">
+        <h3>Hours</h3>
+   <!--<p>Monday - Closed</br>
+        Tuesday-Friday - 8:30am - 5:00pm</br>
+        Saturday - 8:00am - Noon</br>
+        Sunday - Closed</p>-->
+     <button type="button" class="btn btn-dark"><a href="hours.html/">SHOW HOURS</a></button>
+    <hr color="white">
+
+    <h3>Contacts</h3>
+<p>email - barber@pa.net</br>
+    phone - (717) 243-3269</br>
+    adress - 24 W Louther St. Carlisle, PA 17013</p>
+
+</br>
+    <button type="button" class="btn btn-dark"><a href="https://square.site/book/37VKE1BDY89E2/kirkpatrick-s-barber-shop-carlisle-pa">BOOK APPOINTMENT</a></button>
+
+</div>
+<div class="jumbotron">
+    <img src="static/image/randy.png" class="imgrandy">
+    </br>
+    <p class="lead">As a <a href="https://cumberlink.com/lifestyles/local-barbershop-emphasizes-tradition/article_abf09f7d-74ed-5b02-bce4-be141defbe1d.html">traditional barber shop</a>, appointment needed, no need to call ahead. Walk in at any time and wait for no more than 15 to 30 minutes for a cut. Get back to the basics and expect the best. With more than 25 years of barber experience, Randy Kirkpatrick's barber shop has been voted the best barber shop in Carlisle five times. Kirkpatrick's barber shop tries to stay true to an authentic barber experience giving all patrons a smile and a neck shave.</p>
+</br>
+</br></br>
+</br>
+</div>
+
+<!--<ul>-->
+<div class="postsqwr container">
+    <h1>News</h1>
+    <hr color="white">
+{% for post in object_list %}
+    <!--<li>--> <h3> {{ post.title }} </h3>-{{ post.author }}
+    <p>{{ post.body }}</p><!--</li>--><hr color="white"></br></br>
+
+{% endfor %}
+<!--</ul>>-->
+</div>
+ {% endblock %}

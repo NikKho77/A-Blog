@@ -1,0 +1,7 @@
+*.en
+*~
+__pycache__
+virt
+db.sqlite3
+/static
+.DS_Store

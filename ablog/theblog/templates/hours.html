@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="hoursdiv container">
+
+{% for post in object_list %}
+
+    <p>{{post.monday}}</p>
+    <hr color="white">
+    <p>{{post.tuesday}}</p>
+    <hr color="white">
+    <p>{{post.wednesday}}</p>
+    <hr color="white">
+    <p>{{post.thursday}}</p>
+    <hr color="white">
+    <p>{{post.friday}}</p>
+    <hr color="white">
+    <p>{{post.saturday}}</p>
+    <hr color="white">
+    <p>{{post.sunday}}</p>
+    <hr color="white">
+
+{% endfor %}
+
+</div>
+
+
+
+{% endblock %}
